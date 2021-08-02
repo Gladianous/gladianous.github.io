@@ -471,6 +471,7 @@ section {
 /* Section with background
 --------------------------------*/
 .section-bg {
+  margin: auto;
   background: #f5f8fd;
 }
 
@@ -809,7 +810,6 @@ section {
   color: #f8fcff;
   font-weight: 500;
   font-size: 14px;
-  text-transform: uppercase;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview, #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details {
@@ -859,10 +859,12 @@ section {
   width: 100%;
 }
 
+
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
+
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
@@ -872,9 +874,11 @@ section {
   border: 1px solid #1bb1dc;
 }
 
+
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #1bb1dc;
 }
+
 
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -1375,13 +1379,17 @@ section {
 }
 
 #footer .footer-top h4 {
-  font-size: 14px;
+  font-size: 36px;
   font-weight: bold;
   color: #413e66;
   text-transform: uppercase;
+  text-align: center;
   position: relative;
   padding-bottom: 10px;
 }
+
+#footer .footer-top p {
+  font-size: 18px;
 
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
